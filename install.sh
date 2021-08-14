@@ -9,6 +9,5 @@ cd /tmp/extract
 zsh install.sh
 source ~/.zshrc
 echo "All utillities installed"
-cd -2
-rm install.sh
-git add install.sh
+
+git rm --cached install.sh
